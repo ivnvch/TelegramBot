@@ -1,0 +1,17 @@
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\Bot.BusinessLogic.csproj.AssemblyReference.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\Bot.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\Bot.BusinessLogic.AssemblyInfoInputs.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\Bot.BusinessLogic.AssemblyInfo.cs
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\Bot.BusinessLogic.csproj.CoreCompileInputs.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\bin\Debug\net6.0\Bot.BusinessLogic.deps.json
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\bin\Debug\net6.0\Bot.BusinessLogic.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\bin\Debug\net6.0\Bot.BusinessLogic.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\bin\Debug\net6.0\Bot.Common.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\bin\Debug\net6.0\Bot.Models.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\bin\Debug\net6.0\Bot.Common.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\bin\Debug\net6.0\Bot.Models.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\Bot.BusinessLogic.csproj.CopyComplete
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\Bot.BusinessLogic.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\refint\Bot.BusinessLogic.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\Bot.BusinessLogic.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.BusinessLogic\obj\Debug\net6.0\ref\Bot.BusinessLogic.dll

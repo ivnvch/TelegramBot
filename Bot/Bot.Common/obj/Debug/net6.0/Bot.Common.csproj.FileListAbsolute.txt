@@ -1,0 +1,15 @@
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\bin\Debug\net6.0\Bot.Common.deps.json
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\bin\Debug\net6.0\Bot.Common.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\bin\Debug\net6.0\Bot.Common.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\bin\Debug\net6.0\Bot.Models.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\bin\Debug\net6.0\Bot.Models.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\Bot.Common.csproj.AssemblyReference.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\Bot.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\Bot.Common.AssemblyInfoInputs.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\Bot.Common.AssemblyInfo.cs
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\Bot.Common.csproj.CoreCompileInputs.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\Bot.Common.csproj.CopyComplete
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\Bot.Common.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\refint\Bot.Common.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\Bot.Common.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.Common\obj\Debug\net6.0\ref\Bot.Common.dll

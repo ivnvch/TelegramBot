@@ -1,0 +1,14 @@
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\bin\Debug\net6.0\Bot.Models.deps.json
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\bin\Debug\net6.0\Bot.Models.runtimeconfig.json
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\bin\Debug\net6.0\Bot.Models.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\bin\Debug\net6.0\Bot.Models.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\Bot.Models.csproj.AssemblyReference.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\Bot.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\Bot.Models.AssemblyInfoInputs.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\Bot.Models.AssemblyInfo.cs
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\Bot.Models.csproj.CoreCompileInputs.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\Bot.Models.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\refint\Bot.Models.dll
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\Bot.Models.pdb
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\Bot.Models.genruntimeconfig.cache
+E:\Visual Studio\TelegramBot\Bot\Bot.Models\obj\Debug\net6.0\ref\Bot.Models.dll

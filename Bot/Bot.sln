@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot", "Bot\Bot.csproj", "{4CB3574C-B917-46B8-A758-E99603B43886}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. TgBot", "1. TgBot", "{BD1B1653-A58E-4D1F-9EBC-997DE578DC4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. BusinessLogic", "2. BusinessLogic", "{79816FF2-48DF-4BF7-A5BB-0FBB50258BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Common", "3. Common", "{A9AD6854-BEFB-4BCD-AD84-3C1058C48D10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Models", "4. Models", "{794AFBA0-4B29-419D-B2FB-DD18D222BDD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot.Models", "Bot.Models\Bot.Models.csproj", "{407647EE-7CD1-4838-8D60-27D773D277EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.Common", "Bot.Common\Bot.Common.csproj", "{F09898BC-2A35-4877-96AC-19F7A58C7909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot.BusinessLogic", "Bot.BusinessLogic\Bot.BusinessLogic.csproj", "{463C7F37-E53E-4F19-8D85-3BB33A4DADDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB3574C-B917-46B8-A758-E99603B43886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB3574C-B917-46B8-A758-E99603B43886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB3574C-B917-46B8-A758-E99603B43886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB3574C-B917-46B8-A758-E99603B43886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407647EE-7CD1-4838-8D60-27D773D277EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407647EE-7CD1-4838-8D60-27D773D277EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407647EE-7CD1-4838-8D60-27D773D277EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407647EE-7CD1-4838-8D60-27D773D277EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09898BC-2A35-4877-96AC-19F7A58C7909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09898BC-2A35-4877-96AC-19F7A58C7909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09898BC-2A35-4877-96AC-19F7A58C7909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09898BC-2A35-4877-96AC-19F7A58C7909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463C7F37-E53E-4F19-8D85-3BB33A4DADDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463C7F37-E53E-4F19-8D85-3BB33A4DADDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463C7F37-E53E-4F19-8D85-3BB33A4DADDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463C7F37-E53E-4F19-8D85-3BB33A4DADDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CB3574C-B917-46B8-A758-E99603B43886} = {BD1B1653-A58E-4D1F-9EBC-997DE578DC4A}
+		{407647EE-7CD1-4838-8D60-27D773D277EE} = {794AFBA0-4B29-419D-B2FB-DD18D222BDD0}
+		{F09898BC-2A35-4877-96AC-19F7A58C7909} = {A9AD6854-BEFB-4BCD-AD84-3C1058C48D10}
+		{463C7F37-E53E-4F19-8D85-3BB33A4DADDC} = {79816FF2-48DF-4BF7-A5BB-0FBB50258BF3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC9021AC-02B5-4CC8-B219-EA6B25F0C544}
+	EndGlobalSection
+EndGlobal
