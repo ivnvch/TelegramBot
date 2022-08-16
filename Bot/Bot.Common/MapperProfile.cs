@@ -10,7 +10,8 @@ namespace Bot.Common
         {
             CreateMap<Section, SectionDTO>().ReverseMap();
             CreateMap<Teacher, TeacherDTO>().ReverseMap();
-            CreateMap<RunningTimeSection, RunningTimeDTO>().ReverseMap();
+            CreateMap<RunningTimeSection, RunningTimeDTO>()
+                .ForMember(x=>x.Logs, opt=>opt.Ignore()).ReverseMap();
         }
     }
 }

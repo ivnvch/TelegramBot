@@ -148,13 +148,12 @@ async Task HandleCallbackQuery(ITelegramBotClient botClient, CallbackQuery callb
 List<RunningTimeDTO> GetData(string name, CallbackQuery callbackQuery)
 {
     RunningTimeDTO runningTimeDTO = new RunningTimeDTO();
-    while (runningService.Gets(name).Any(x => callbackQuery.Data.StartsWith(name)))
-    {
+    runningTimeDTO.Logs = new List<RunningTimeDTO>();
+   
         foreach (var item in runningService.Gets(name))
         {
             runningTimeDTO.Logs.Add(item);
         }
-    }
     return runningTimeDTO.Logs;
 
 }

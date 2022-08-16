@@ -3,7 +3,7 @@ using Bot.Models;
 
 namespace Bot.Common.Mapper
 {
-   // [AutoMap(typeof(RunningTimeSection))]
+    [AutoMap(typeof(RunningTimeSection))]
     public class RunningTimeDTO
     {
         public string StartTime { get; set; }
