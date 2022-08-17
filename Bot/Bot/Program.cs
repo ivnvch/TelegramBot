@@ -11,6 +11,7 @@ using Bot.BusinessLogic.Interfaces;
 using Bot.BusinessLogic.Implementations;
 using Bot.Models;
 using Bot.Common.Mapper;
+using System.Text;
 
 static void ConfigurationBuild(IConfigurationBuilder builder)
 {
@@ -127,36 +128,35 @@ async Task HandleCallbackQuery(ITelegramBotClient botClient, CallbackQuery callb
     }
 }
 
-//string GetData(string name, CallbackQuery callbackQuery)
-//{
-//    while (runningService.Gets(name).Any(x => callbackQuery.Data.StartsWith(name)))
-//    {
-//        foreach (var item in runningService.Gets(name))
-//        {
-//            return $"Время проведения: {item.DayOfWeek} {item.StartTime} - {item.EndTime}\nМестоположение: {item.Location}";
-//        }
-//    }
-//    return string.Empty;
-//    //    //List<string> asd = new List<string>();
-//    //    //foreach(var item in runningService.Gets(name))
-//    //    //{
-//    //    //   asd.Add($"Время проведения: {item.DayOfWeek} {item.StartTime} - {item.EndTime}\nМестоположение: {item.Location}");
-//    //    //}
-//    //    //return asd;
-//}
-
-List<RunningTimeDTO> GetData(string name, CallbackQuery callbackQuery)
+string GetData(string name, CallbackQuery callbackQuery)
 {
-    RunningTimeDTO runningTimeDTO = new RunningTimeDTO();
-    runningTimeDTO.Logs = new List<RunningTimeDTO>();
-   
+    var data = new StringBuilder();
         foreach (var item in runningService.Gets(name))
         {
-            runningTimeDTO.Logs.Add(item);
+            // return $"Время проведения: {item.DayOfWeek} {item.StartTime} - {item.EndTime}\nМестоположение: {item.Location}";
+            data.Append($"Время проведения: {item.DayOfWeek} {item.StartTime} - {item.EndTime}\nМестоположение: {item.Location}\n");
         }
-    return runningTimeDTO.Logs;
-
+    return data.ToString();
+    //List<string> asd = new List<string>();
+    //foreach (var item in runningService.Gets(name))
+    //{
+    //    asd.Add($"Время проведения: {item.DayOfWeek} {item.StartTime} - {item.EndTime}\nМестоположение: {item.Location}");
+    //}
+    //return asd;
 }
+
+//List<RunningTimeDTO> GetData(string name, CallbackQuery callbackQuery)
+//{
+//    RunningTimeDTO runningTimeDTO = new RunningTimeDTO();
+//    runningTimeDTO.Logs = new List<RunningTimeDTO>();
+
+//    foreach (var item in runningService.Gets(name))
+//    {
+//        runningTimeDTO.Logs.Add($"Время проведения: {item.DayOfWeek} {item.StartTime} - {item.EndTime}\nМестоположение: {item.Location}");
+//    }
+//    return runningTimeDTO.Logs;
+
+//}
 
 
 async Task HandleMessage(ITelegramBotClient botClient, Message message)
